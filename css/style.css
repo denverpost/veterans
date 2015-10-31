@@ -1,6 +1,6 @@
 body {
 	background:rgba(255,255,255,1);
-    background:#fff;
+    background:#2B2B2B;
     z-index:1;
     font-family:'Noticia Text', Georgia, Times, 'Times New Roman', serif;
 }
@@ -150,7 +150,7 @@ p.blurb {
     font-family:'Noticia Text', Georgia, Times, 'Times New Roman', serif;
     font-size:1.35em;
     line-height:1.9;
-    color:rgba(0,0,0,0.5);
+    color:rgb(208,207,207);
     font-style: italic;
     text-align: center;
     margin:1em auto 5em;
@@ -439,7 +439,7 @@ div.title h1 {
     font-weight:400;
     line-height:1;
     text-transform:uppercase;
-    color:rgba(34,34,34,1);
+    color:rgb(241,241,241);
     display:block;
     z-index:-1;
 }
@@ -455,7 +455,7 @@ h1, h2, h3, h4 {
   	font-weight:700;
 }
 p, .reveal-modal li {
-  	color:#333;
+  	color:rgb(208,207,207);
     font-size:1.15em;
     line-height:2;
     margin-bottom:1.6em;
@@ -580,10 +580,41 @@ a:hover, * a:hover, a:hover * {
 .twinphoto .photoright .caption {
     padding-right:1em;
 }
+.row{
+    max-width:115em;
+}
 .centerphoto {
     width:100%;
     padding:0;
     margin:2em 0 4em;
+}
+.vetrowleft{
+    padding: 4em 2em 4em 0;
+}
+.vetrowleft .vetmug{
+    float: left;
+    margin:-30% 2em 1em 0;
+    width:70%;
+}
+.vetrowleft .vettext p.lead{
+    margin-top: 30%;
+}
+.vetrowleft .vettext p{
+    margin-left: 50%;
+}
+.vetrowright{
+    padding: 4em 0 4em 2em;
+}
+.vetrowright .vetmug{
+    float: right;
+    margin:-30% 0 1em 2em;
+    width:70%;
+}
+.vetrowright .vettext p.lead{
+    margin-top: 30%;
+}
+.vetrowright .vettext p{
+    margin-right: 50%;
 }
 p.credit {
     text-transform:uppercase;
@@ -829,62 +860,6 @@ div#footer-bar ul.social li {
     float:left;
     display:inline-block;
 }
-@media (max-width:1550px) {
-    .opener div#title h2 {
-        font-size:12em;
-    }
-}
-@media (max-width:1450px) {
-    .opener div#title h2 {
-        font-size:11em;
-    }
-}
-@media (max-width:1340px) {
-    .opener div#title h2 {
-        font-size:10em;
-    }
-}
-@media (max-width:1240px) {
-    .inset-video-right, section.inset .inset-video-right {
-        margin-right:0;
-        width:50%;
-    }
-    .inset-video-left, section.inset .inset-video-left {
-        margin-left:0;
-        width:50%;
-    }
-    .opener div#title h2 {
-        font-size:10em;
-    }
-}
-@media (max-width:1200px) {
-    .opener div#title h2 {
-        font-size:9em;
-    }
-}
-@media (max-width:1100px) {
-    .opener div#title h2 {
-        font-size:8em;
-        line-height:.5;
-    }
-}
-@media (max-width:980px) {
-    .opener div#title h2 {
-        font-size:7em;
-    }
-}
-@media (max-width:70em) {
-    section.inset.right {
-        padding:0 1.5em 1em;
-        margin-right:0;
-        width:50%;
-    }
-    section.inset.left {
-        padding:0 1.5em 1em;
-        margin-left:0;
-        width: 50%;
-    }
-}
 @media (max-width:930px) {
     #logoimg {
         height:1.3em;
@@ -905,7 +880,7 @@ div#footer-bar ul.social li {
         margin-left:5%;
         margin-right:5%;
     }
-    p, .reveal-modal li {
+    .reveal-modal li {
         color:#333;
         font-size:1.1em;
         line-height:1.8;
@@ -923,13 +898,6 @@ div#footer-bar ul.social li {
         top:.2em;
         right:.2em;
         line-height:1;
-    }
-}
-@media (max-width:850px) {
-    .opener div#title h2 {
-        font-size:6em;
-        line-height:.45;
-        letter-spacing:-1px;
     }
 }
 @media (max-width:800px) {
@@ -964,21 +932,35 @@ div#footer-bar ul.social li {
         line-height: 1.7;
     }
 }
-@media (max-width:740px) {
-    .opener div#title h2 {
-        font-size:5em;
-        line-height:.4;
-        word-spacing:5px;
+@media (max-width:640px) {
+    .vetrowleft{
+        padding: 0;
     }
-}
-@media (max-width:600px) {
-    .opener div#title h2 {
-        font-size:4em;
-        line-height:.35;
-        text-shadow: 0px 0px 2px rgba(0,0,0,.5);
+    .vetrowleft .vetmug{
+        float: none;
+        margin:1em 3% 3em;
+        width:94%;
     }
-}
-@media (max-width:540px) {
+    .vetrowleft .vettext p.lead{
+        margin-top: 1em;
+    }
+    .vetrowleft .vettext p{
+        margin: 1em;
+    }
+    .vetrowright{
+        padding:0;
+    }
+    .vetrowright .vetmug{
+        float: none;
+        margin:1em 3% 3em;
+        width:94%;
+    }
+    .vetrowright .vettext p.lead{
+        margin-top: 1em;
+    }
+    .vetrowright .vettext p{
+        margin: 1em;
+    }
     div.title h2 {
         font-size:3.5em;
     }
