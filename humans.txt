@@ -5,10 +5,10 @@
 	Twitter: @schneidan
 	Location: Denver, Colorado, USA
 
-	Title: Kevin Hamm, Data Developer
+	Title: Amy Brothers, Site Designer
 	Site: http://www.denverpost.com
-	Email: khamm@denverpost.com
-	Twitter: @kevinmhamm
+	Email: abrothers@denverpost.com
+	Twitter: @brothers_amy
 	Location: Denver, Colorado, USA
 
 /* SITE */
