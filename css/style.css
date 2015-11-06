@@ -80,7 +80,7 @@ body {
 
 div#title h2 {
     text-transform: uppercase;
-    font-size: 12.5em;
+    font-size: 12em;
     text-align: center;
     width: 100%;
     line-height: .55;
@@ -149,20 +149,24 @@ div#name2 h1 {
 }
 
 .lowertitle h3 {
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.5);
-    transform: scale(1, .7);
-    letter-spacing: 1px;
-}
-
-p.lead {
+    font-family: 'Noticia Text', Georgia, Times, 'Times New Roman', serif !important;
     font-size: 1.3em;
     line-height: 2;
     font-weight: 700;
 }
 
+p.lead {
+    font-size: 1.5em;
+    line-height: 2;
+    font-weight: 650;
+    margin-bottom: inherit;
+    text-transform: uppercase;
+}
+p.sublead {
+    font-size: 1.3em;
+    line-height: 2;
+    font-weight: 650;
+}
 p.blurb {
     font-family: 'Noticia Text', Georgia, Times, 'Times New Roman', serif;
     font-size: 1.35em;
@@ -525,9 +529,7 @@ div.title.lowertitle h1 {
 }
 
 h1,
-h2,
-h3,
-h4 {
+h2,{
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif !important;
     font-weight: 700;
 }
@@ -1023,7 +1025,7 @@ div#footer-bar ul.social li {
 
 @media (max-width:1320px) {
     div#title h2 {
-        font-size: 9em;
+        font-size: 7em;
     }
 }
 
@@ -1033,7 +1035,7 @@ div#footer-bar ul.social li {
         padding: 0 1em;
     }
     div#title h2 {
-        font-size: 7.5em;
+        font-size: 6em;
     }
 }
 
