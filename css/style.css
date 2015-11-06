@@ -181,6 +181,7 @@ p.blurb {
 p.byline {
     text-align: center;
     font-size: 1em;
+    margin-top:1em;
     margin-bottom: 5em;
 }
 
